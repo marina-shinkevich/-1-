@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+	margin: 0;
+	padding: 0;
+}
+#nav{
+	height: 70px;
+}
+#nav ul{
+	list-style: none;
+    margin:3px
+}
+
+#nav > ul > li{
+float:left;
+	width: 180px;
+	position: relative;
+}
+#nav li a{
+	display: block;
+	background: #ffffff;
+	border: 1px solid #060A13;
+	color: #060A13;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+    margin: 2px;
+}
+#nav li a{
+	display: block;
+	background: #ffffff;
+	border: 1px solid #060A13;
+	color: #060A13;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+    margin: 2px;}
+#nav .a2 a:hover{
+	background: #ffffff;
+    background-image: url("фит.jpg");
+background-size: 20px;
+
+background-repeat: no-repeat;
+background-position: 35px 10px;
+
+margin-bottom: 20px;
+}
+#nav .a1 a:hover{
+	background: #ffffff;
+    background-image: url("facultet.png");
+background-size: 20px;
+
+background-repeat: no-repeat;
+background-position: 30px 13px;
+
+margin-bottom: 20px;
+}
+    
+#nav .a3 a:hover{
+	background: #ffffff;
+    background-image: url("пим.jpg");
+background-size: 20px;
+
+background-repeat: no-repeat;
+background-position: 35px 10px;
+
+margin-bottom: 20px;
+}
+#nav .a4 a:hover{
+	background: #ffffff;
+    background-image: url("хтит.jpg");
+background-size: 20px;
+
+background-repeat: no-repeat;
+background-position: 35px 10px;
+
+margin-bottom: 20px;
+}
+#nav li .second{
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+
+#nav li:hover .second{
+	display: block;
+ 
+  
+}
+ul .a1 a:hover{
+    list-style-type: none;
+   
+
+
+}
+li{
+    list-style-type: none;
+ 
+}
+
+#nav .second .pi:hover{
+    
+   background-image: none;
+    
+}
+#nav .second .isit:hover{
+    
+    background-image: none;
+     
+ }
+ #nav .second .iivid:hover{
+    
+    background-image: none;
+     
+ }
+    </style>
+</head>
+<body>
+    
+           
+    <nav id = "nav">
+        <ul>
+            <li class="a1"><a href = "https://www.belstu.by/">БГТУ</a>
+                <ul class = "second">
+                </ul>
+            </li>
+            <li class="a2"><a href = "https://it.belstu.by/">ИТ</a>
+                <ul class = "second">
+                    <li ><a href="https://isit.belstu.by/" class="isit">Кафедра ИСиТ</a></li>
+                    <li><a href="https://www.belstu.by/fakultety/fit/ivd/" class = "iivid">Кафедра ИиВД</a></li>
+                    <li ><a href="https://new.belstu.by/fakultety/fit/pi" class="pi">Кафедра ПИ</a></li>
+                </ul>
+            </li>
+            <li class="a3"><a href = "https://pim.belstu.by/">ПиМ</a>
+                <ul class = "second">
+                    
+                </ul>
+            </li>
+            <li class="a4"><a href = "https://htit.belstu.by/">ХТиТ</a>
+                <ul class = "second">
+                    
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

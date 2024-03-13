@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            width: 250px;
+            height: 150px;
+        }
+        .gallery {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;}
+        
+        .photo {
+          position: relative;
+          margin-left:100px;}
+        
+        
+      
+        #fg1{
+          display: none;
+        }
+        figcaption{
+          display: none;
+        }
+        figure{
+          display: inline-block;
+        }
+      </style>
+</head>
+<body>
+  <figure>
+    <img src="seven1.jpg" id="ph1">
+    <figcaption >photo1</figcaption>
+    </figure>
+    <figure>
+      <img src="seven2.jpg" id="ph2">
+      </figure>
+      <figure>
+        <img src="seven3.jpeg" id="ph3">
+        </figure>
+   
+    <script>
+      document.getElementById('ph1').addEventListener('click', function(){
+        document.querySelector('figcaption').style.display="block"
+      })
+      document.getElementById('ph2').addEventListener('mousedown', function(){
+        document.querySelector('#ph2').style.border="10px solid red"
+      })
+      document.getElementById('ph3').addEventListener('mousemove', function(){
+        this.src = "seven1.jpg"
+      })
+      document.getElementById('ph3').addEventListener('mouseout', function(){
+        this.src = "seven3.jpeg"
+      })
+      
+
+    </script>
+</body>
+</html>

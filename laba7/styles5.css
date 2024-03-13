@@ -1,0 +1,85 @@
+  
+      h1{
+        text-align: center;
+        animation-name: h1;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+       ;
+    }
+    @keyframes h1 {
+        0% {opacity: 0%;}
+        50%{opacity: 80%;}
+        100%{opacity: 0%;}
+       }
+    div{
+    margin: 35px;
+    }
+    .img1{
+    animation-name: img1;
+    z-index: 3;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transition-timing-function: ease-in;
+    border: 2px solid rgb(192, 252, 255);
+    } 
+    @keyframes img1 {
+        40% {opacity: 100%;}
+        58% {opacity: 0%;}
+        100%{opacity: 0%;}
+       }
+    .img2{
+        animation-name: img2;
+        z-index: 4;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        transition-timing-function: ease-in;
+        border: 2px solid rgb(192, 249, 255);
+    }
+    @keyframes img2 {
+        20% {opacity: 100%;}
+        38% {opacity: 0%;}
+        100%{opacity: 0%;}
+       }
+    .img3{
+        animation-name: img3;
+        z-index: 5;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        transition-timing-function: ease-in;
+        border: 2px solid rgb(192, 255, 254);
+    }
+    @keyframes img3 {
+        0% {opacity: 100%;}
+        40% {opacity: 0%;}
+        100%{opacity: 0%;}
+       }
+    .img4{
+        animation-name: img4;
+        z-index: 2;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        transition-timing-function: ease-in;
+        border: 2px solid rgb(192, 240, 255);
+    }
+    @keyframes img4 {
+        60% {opacity: 100%;}
+        88% {opacity: 0%;}
+        100%{opacity: 0%;}
+       }
+    .img5{
+        animation-name: img5;
+        z-index: 1;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        transition-timing-function: ease-in;
+        border: 2px solid rgb(157, 234, 241);
+    }
+    @keyframes img5 {
+        80% {opacity: 100%;}
+        100% {opacity: 0%;}
+       }

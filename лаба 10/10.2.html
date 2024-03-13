@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            
+          background-image: url("img2.jpg");
+          
+        
+        }
+    .menu{
+       
+
+flex: 1 1 300px;
+border-width: 2px;
+border-style: solid;
+margin: 5px;
+text-align: center;
+font-size: 30px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: brown;
+
+}
+    
+.container{
+    display: flex;
+    
+    flex-flow: row wrap;
+align-content:space-between;
+
+
+
+}
+li{
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.menu>ul>li{
+    display: inline;
+    text-align: center;
+    float: left;
+    width: 400px;
+ 
+}
+.list{
+    border-width: 2px;
+border-style: solid;
+margin: 10px;
+}
+@media (max-width: 560px) {
+    .nav li .second{
+        display: none;
+    }
+    .nav li:hover .second{
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 50px;
+    }
+}
+            
+
+   
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="nav">
+            <ul>
+                <li class="menu">Меню<label for="menu">&#8801;</label>
+                    <ul class="second">
+                        <li class="list">justify-content: flex-start; - выравнивает элементы в начале контейнера</li>
+                        <li class="list">justify-content: flex-end; - выравнивает элементы в конце контейнера</li>
+                        <li class="list">justify-content: center; - выравнивает элементы по центру контейнера</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+</body>
+</html>

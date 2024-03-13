@@ -1,0 +1,34 @@
+body{
+    background-color: beige;
+}
+zagolovok {
+    display: block;
+    color: rgb(255, 200, 0);
+    text-align: center;
+    font-size: 25px;
+}
+obz1 {
+    font-family: Arial, sans-serif;
+   
+}
+obz2{
+    display: block;
+  
+   
+}
+obz3,obz1,obz2,obz4,obz5{
+    display: block;
+    background-color: rgb(236, 185, 123);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; 
+
+}
+p1,p2,p3,p4,p5,p6{
+    display: table-cell;
+    border-width:2px ;
+    border-style: solid;
+    border-color: brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    padding: 3px;
+}

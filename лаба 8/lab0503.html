@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: inline-block;
+        background-color:indigo;}
+            p{
+                display: inline-block;
+width: 20em;
+vertical-align: top;
+text-align: left;
+margin-right: 5px;
+margin-top: 3px;
+
+color: aliceblue;
+padding:10px;
+font-size: 1.2em;
+        }
+        input{
+           
+            background-color: rgba(255,255,255,.5);
+            margin: 15px 5px 5px 5px;
+            box-shadow: inset 0 0 10px rgba(255, 255, 255,.75);}
+            input[type="date"]{
+                background-color: aliceblue;
+            }
+            
+        
+        div{
+            color: aliceblue;
+            font-size: larger;
+        }
+           select{
+            text-align: right;
+            margin: 5px;
+           }
+           input[type="submit"]{
+            margin-left: auto;
+            display:block;
+            box-shadow: 0 0 4px white;
+            background-color:  rgb(39, 39, 114);
+            color: aliceblue;
+
+           }
+           input[type="text"]:focus
+           {
+            background-color:  rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+
+           }
+
+           button{
+            margin-left: auto;
+            display:block;
+            box-shadow: 0 0 4px white;
+            background-color: rgb(39, 39, 114);
+            color: aliceblue;
+            margin-bottom: 10px;
+           }
+          
+        
+
+    </style>
+</head>
+<body>
+    <form>
+        <div >Регистрация постоянного клиента</div>
+    <p>Фамилия: </p>
+    <input type="text" >
+   
+     <br>
+   
+    <p>Имя:</p>
+    <input type="text"><br>
+   
+    <p>Отчество:</p>
+    <input type="text" ><br>
+    <p>Ваш возраст:</p>
+    <input type="text" ><br>
+    <p>Пол: </p>
+    <input type="checkbox" >мужской <input type="checkbox">женский<br>
+    <p>Email: </p>
+    <input type="email" ><br>
+    <p>Страна проживания:</p>
+    <input type="text" ><br>
+    <p>Откуда вы узнали о нас?</p>
+
+    
+  
+    <select ><option value="s1">Интернет</option>
+        <option value="s3" >Инстаграмм</option>
+        <option value="s2" selected>Выбрать ответ</option></select>
+    
+        <br>
+
+    <p>Дата заполнения</p>
+    
+    <input type="date" name="calendar" value="дд.мм.гггг"
+    max="2024-06-04" min="2023-05-10">
+    <br>
+   
+    <input type="submit"> <button>Регистрация</button>
+
+   
+</form>
+
+</body>
+</html>

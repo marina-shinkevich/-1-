@@ -1,0 +1,26 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="body">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="zagolovok" type="xsd:string"/>
+        <xsd:element name="obz1" type="xsd:string"/>
+        <xsd:element name="obz2" type="xsd:string"/>
+        <xsd:element name="obz3" type="xsd:string"/>
+        <xsd:element name="obz4" type="xsd:string"/>
+        <xsd:element name="obz5" type="xsd:string"/>
+        <xsd:element name="spisok">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="p1" type="xsd:string"/>
+              <xsd:element name="p2" type="xsd:string"/>
+              <xsd:element name="p3" type="xsd:string"/>
+              <xsd:element name="p4" type="xsd:string"/>
+              <xsd:element name="p5" type="xsd:string"/>
+              <xsd:element name="p6" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

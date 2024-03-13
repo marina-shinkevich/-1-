@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    animation-name: h1; 
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    
+}
+@keyframes h1 {
+    0% {opacity: 0%;}
+    50%{opacity: 80%;}
+    100%{opacity: 0%;}
+   }
+        img{
+            height: 100px;
+            width: 200px;
+        }
+        .rr{
+    width: 500px;
+    height: 500px;
+    position: relative; }
+.divv span {
+    position: absolute;
+}
+@keyframes c1 {
+    0%{ transform: perspective(400px) rotatey(30deg);}
+    50%{ transform: translate(300px, 0);}
+    100%{ transform: translate(-300px, 150px);}
+}
+.c1{
+    animation: c1 5s ease-in-out infinite ;
+}
+@keyframes c2 {
+    0%{ transform: perspective(400px) rotatey(30deg);}
+    50%{ transform: translate(400px, 0);}
+    100%{ transform: translate(-50px, 150px); filter: blur(10px);}
+}
+.c2{
+    animation: c2 5s ease-in-out infinite ;
+    margin-left: 10px;
+}
+@keyframes c3 {
+    0%{ transform: perspective(400px) rotatey(30deg);}
+    50%{ transform: translate(500px, 0);}
+    100%{ transform: translate(200px, 150px); filter:grayscale(1);}
+}
+.c3{
+    animation: c3 5s ease-in-out infinite ;
+    margin-left: 20px;
+}
+@keyframes c4 {
+    0%{ transform: perspective(400px) rotatey(30deg);}
+    50%{ transform: translate(600px, 0);}
+    100%{ transform: translate(450px, 150px); filter: invert(1);}
+}
+.c4{
+    animation: c4 5s ease-in-out infinite ;
+    margin-left: 30px;
+}

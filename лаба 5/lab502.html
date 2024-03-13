@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            display: inline-block;
+            width: auto;
+            text-align: center;
+        }
+        table{
+            border-spacing: 0;
+            
+            border-collapse: separate;
+            border-top: hidden;
+            border-bottom: hidden;
+           border-left: hidden;
+           border-color: black;
+        }
+       
+        td:nth-child(4n+2){
+            background-color: aqua;
+            color: aliceblue;
+        }
+        td:nth-child(4n+3){
+            background-color: rgb(138, 10, 104);
+            color: aliceblue;
+        }
+        td:nth-child(4n+4){
+            background-color: green;
+            color: aliceblue;
+        }
+        th{
+            text-align: right ;
+            background-color: blue;
+            empty-cells: hide;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Russia:Top smartphone vendors<br>Q1 2021</h3>
+    <table border="2" >
+ 
+    <tr><th style="empty-cells: hide;"></th> <th>Vendor</th><th>Unit Share</th><th>Annual Growth</th></tr>
+   <tr><td>#1 &uArr; </td><td>Xiaomi</td><td>32%</td><td>+125%</td></tr>
+   <tr><td>#2 &uArr;</td><td>Samsung</td><td>27%</td><td>+41%</td></tr>
+   <tr><td>#3 &uArr;</td><td>Honor</td><td>10%</td><td>+0%</td></tr>
+   <tr><td>#4 &hArr;</td><td>Apple</td><td>9%</td><td>+24%</td></tr>
+   <tr><td>#5 &hArr;</td><td>Realme</td><td>9%</td><td>+682%</td></tr>
+   <tr><td style="empty-cells: hide;"></td><td>Total</td><td>82%</td><td>682%</td></tr>
+
+</table>
+</body>
+</html>

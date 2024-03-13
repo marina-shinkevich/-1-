@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    @font-face {
+        font-family:'caveat' ;
+        src: url('fonts/Caveat-Regular.woff');
+    }
+    @font-face {
+      font-family: 'exo2';
+      src: url('fonts/Exo2-Thin.woff');
+    }
+    h1{
+        font-family: 'caveat';
+        font-weight: bold;
+        font-variant:small-caps;
+        text-align: center;
+        margin-bottom: 0;
+        font-size:  45px;
+    }
+    h2{
+      font-family:'exo2';
+      text-indent: 25px;
+      margin-top: 0.2em;
+      margin-bottom: 1.2em;
+      text-align: left;
+
+    
+      
+    }
+    @font-face {
+      font-family:'comfortaa' ;
+      src: url(fonts/Comfortaa-Light.woff);
+    }
+    p{
+      font-family: 'comfortaa';
+      text-indent: 25px;
+      text-align: justify;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      line-height: 200%;
+    
+      }
+      
+      p::first-letter{
+        font-weight:bold;
+        
+        background-color: hsla(275,100%,10%,1);
+        color: aliceblue;
+        font-size: 45px;
+      }
+      ol li{
+        list-style-type: none;
+        font-family: 'comfortaa';
+        font-size: 20px;
+        counter-increment:item;
+      }
+      ol li::before{
+        color: blue;
+        content: counter(item, upper-roman) ".";
+      }
+      .tex{
+        margin-bottom: 0;
+      }
+  </style>
+</head>
+<body>
+    <h1 >Learning</h1>
+    <h2>Learning is...</h2>
+    <p >Learning is one of the most important things in life. It is a process that never ends and helps us to grow and develop as individuals.
+         Education is the key to success, and it opens doors to new opportunities and experiences.Learning provides us with knowledge, skills, 
+         and abilities that we can use throughout our lives. It helps us to understand the world around us, make informed decisions, and solve
+          problems. It also gives us the tools we need to succeed in our careers and personal lives.</p>
+    <p >In today's fast-paced world, it is more important than ever to continue learning. Technology is constantly evolving, and new ideas and 
+        concepts are emerging all the time. To stay relevant and competitive, we must keep up with these changes and continue to learn and grow.
+        Furthermore, learning is not just about acquiring knowledge. It is also about personal growth and development. It helps us to become more
+         self-aware, empathetic, and compassionate individuals. It teaches us to think critically and creatively, and to approach challenges with 
+         an open mind.</p>
+    <h2 align="center">Conclusion</h2> 
+        <p >In conclusion, learning is an essential part of life. It helps us to grow, develop, and become the best version of ourselves. Whether it's
+           through formal education or self-directed learning, we should always strive to expand our knowledge and skills. The benefits of learning are
+            endless, and it is never too late to start.</p>
+            <h2 class="tex">Why you need to study?</h2>
+
+            <ol >
+              <li > To acquire knowledge and skills that are essential for personal and professional growth.</li>
+              <li>To increase employment opportunities and enhance career prospects.</li>
+              <li>To develop critical thinking, problem-solving, and decision-making abilities.</li>
+              <li>To improve communication skills and build confidence in expressing ideas and opinions.</li>
+              <li>To gain a better understanding of the world and different cultures.</li>
+            </ol>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="12.1.css"?>
+<!DOCTYPE body [
+<!ELEMENT body (zagolovok, obz1, obz2, obz3, obz4, obz5, spisok, p1, p2, p3, p4, p5, p6)>
+<!ELEMENT zagolovok (#PCDATA)>
+<!ELEMENT obz1 (#PCDATA)>
+<!ELEMENT obz2 (#PCDATA)>
+<!ELEMENT obz3 (#PCDATA)>
+<!ELEMENT obz4 (#PCDATA)>
+<!ELEMENT obz5 (#PCDATA)>
+<!ELEMENT spisok (#PCDATA)>
+<!ELEMENT p1 (#PCDATA)>
+<!ELEMENT p2 (#PCDATA)>
+<!ELEMENT p3 (#PCDATA)>
+<!ELEMENT p4 (#PCDATA)>
+<!ELEMENT p5 (#PCDATA)>
+<!ELEMENT p6 (#PCDATA)>
+<!ENTITY zag "Welcome to the Topic of Interest">
+<!ENTITY p1 "XHTML (Extensible Hypertext Markup Language) is a markup language used to structure and present content on the web. It is 
+a stricter and cleaner version of HTML, designed to be more compatible with XML.">
+<!ENTITY p2 "One of the key features of XHTML is its adherence to strict syntax and rules, which makes it easier for web browsers and other 
+software to interpret and display web pages consistently.">
+<!ENTITY p3 "XHTML supports a wide range of elements and attributes, allowing for the creation of complex and interactive web pages.
+ It also provides support for multimedia content, forms, and other interactive features.">
+<!ENTITY p4 "When writing XHTML, developers can use lists to organize and present information in a structured and easy-to-read format. 
+This can include ordered lists , unordered lists , and definition lists .">
+<!ENTITY p5 "Overall, XHTML is a powerful tool for creating well-structured and accessible web content. By following its strict rules and 
+utilizing its features such as lists, developers can create web pages that are both visually appealing and functional for users.">
+<!ENTITY p6 "Welcome to the Topic of Interest">
+]>
+    
+<body>
+    <zagolovok>&zag;</zagolovok>
+    <obz1> &p1;</obz1>
+    <obz2> &p2;</obz2>
+    <obz3>&p3;</obz3>
+    <obz4>&p4;</obz4>
+    <obz5>&p5;</obz5>
+    <spisok>
+        <p1>1. Strict syntax and rules: XHTML adheres to strict syntax and rules, making it easier for web browsers and other software to interpret and display web pages consistently.</p1>
+         <p2>2. Compatibility with XML: XHTML is designed to be more compatible with XML, allowing for greater flexibility and interoperability with other web technologies.
+        </p2>
+        <p3>3. Support for multimedia content: XHTML supports a wide range of elements and attributes, allowing for the creation of complex and interactive web pages with multimedia content.</p3>
+         <p4>4. Accessibility: XHTML helps create well-structured and accessible web content, ensuring that web pages are functional and usable for all users, including those with disabilities.</p4>
+        <p5>5. Clean and organized code: XHTML encourages clean and organized code, making it easier for developers to maintain and update web pages over time.</p5>
+       <p6>6. Future-proofing: XHTML is a modern and standardized markup language, making it a good choice for creating web content that is compatible with current and future web technologies.</p6>
+    </spisok>
+</body>

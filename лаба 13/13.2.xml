@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Task2.xsl"?>
+<students>
+  <student>
+    <name>Иванов Иван</name>
+    <subject>Математика</subject>
+    <grade>5</grade>
+  </student>
+  <student>
+    <name>Петров Петр</name>
+    <subject>Физика</subject>
+    <grade>3</grade>
+  </student>
+  <student>
+    <name>Сидорова Анна</name>
+    <subject>Химия</subject>
+    <grade>9</grade>
+  </student>
+</students>

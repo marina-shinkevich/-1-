@@ -1,0 +1,75 @@
+.h16{
+    margin-top: 200px;
+}
+
+h1{
+    text-align: center;
+   
+}
+
+div{
+    margin: 35px;
+    }
+    .img01{
+    animation-name: img01;
+    animation-iteration-count: infinite;
+    
+    animation-duration: 5s;
+    position: absolute;
+    
+    } 
+    @keyframes img01 {
+        0% { left: 0; }
+        50% { left: 200px;}
+        100% {left: 0;}
+       }
+    .img02{
+        animation-name: img02;
+        animation-iteration-count: infinite;
+       
+        animation-duration: 5s;
+        position: absolute;
+    }
+    @keyframes img02 {
+        0% { left: 250px;transform: skew(0deg); }
+        50% { left: 1200px;transform: skew(40deg); }
+        100% {left: 250px;transform: skew(0deg);}
+       }
+    .img03{
+        animation-name: img03;
+        animation-iteration-count: infinite;
+        
+        animation-duration: 5s;
+        position: absolute;
+    }
+    @keyframes img03 {
+        0% { left: 0; }
+        50% { left: 1600px;}
+        100%{left:0;}
+       }
+    .img04{
+        animation-name: img04;
+        animation-iteration-count: infinite;
+        
+        animation-duration: 3s;
+        position: absolute;
+    }
+    @keyframes img04 {
+        0% { bottom: 0px; }
+        50% { bottom: 50px;}
+        100% {bottom: 0px;}
+       }
+    .img05{
+        animation-name: img05;
+        animation-iteration-count: infinite;
+       
+        animation-duration: 5s;
+        position: absolute;
+    }
+    @keyframes img05 {
+        0% { left:0;}
+       25%{left:800px;}
+       50%{top:400px;}
+    75%{left:0px;}
+    100%{top:0px;}
+    }

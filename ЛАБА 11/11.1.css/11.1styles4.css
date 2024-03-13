@@ -1,0 +1,170 @@
+a:hover, aside form .info:focus, header .nav ul a:hover {
+  background-color: #DEB887;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+header .logo {
+  width: 300px;
+}
+header .nav ul {
+  display: flex;
+  list-style: none;
+  width: 1100px;
+  height: 100px;
+}
+header .nav ul li {
+  display: inline-block;
+  margin-top: 30px;
+}
+header .nav ul a {
+  background-color: rgb(227, 228, 172);
+  text-decoration: none;
+  color: black;
+  padding: 20px 55px;
+  margin-left: 40px;
+  margin-right: 55px;
+  width: 300px;
+  font-size: 1.2em;
+  text-align: center;
+}
+header .nav ul a:hover {
+  color: rgb(227, 228, 172);
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 24px;
+  color: #DEB887;
+  text-align: center;
+}
+
+body {
+  background-color: #CD853F;
+}
+
+h2 {
+  font-size: 20px;
+  color: #2F4F4F;
+}
+
+.disp {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  border-radius: 6px;
+}
+
+#butrf {
+  color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+header .logo {
+  width: 300px;
+}
+
+main {
+  width: 70%;
+}
+main .gallery {
+  text-align: center;
+}
+main .gallery img {
+  width: 20%;
+  margin: 20px;
+}
+main .texts {
+  display: flex;
+  flex-direction: row;
+}
+main .texts p {
+  font-size: 19px;
+  text-align: justify;
+  padding: 3px;
+  margin: 10px;
+}
+
+aside {
+  background-color: rgb(249, 229, 184);
+  width: 25%;
+}
+aside .asbl1, aside .asbl2 {
+  display: flex;
+  flex-direction: row;
+}
+aside .asbl1 img, aside .asbl2 img {
+  width: 40%;
+  margin: 10px 5px;
+}
+aside .asbl1 p, aside .asbl2 p {
+  width: 60%;
+  text-align: center;
+  font-size: 16px;
+}
+aside h2 {
+  text-align: center;
+}
+aside form {
+  text-align: center;
+}
+aside form .info {
+  border-radius: 4px;
+  border: 1px solid black;
+  background-color: #BDB76B;
+  width: 80%;
+  height: 30px;
+  margin: 5px;
+}
+aside form .info:focus {
+  border: 1px solid white;
+}
+aside form .info:focus::-moz-placeholder {
+  color: rgb(227, 228, 172);
+}
+aside form .info:focus::placeholder {
+  color: rgb(227, 228, 172);
+}
+aside form button {
+  width: 100px;
+  height: 20px;
+  background-color: #D2B48C;
+  color: #2F4F4F;
+  margin: 5px;
+  border-radius: 10px;
+  border-top: 1px solid #2F4F4F;
+  border-left: 1px solid #2F4F4F;
+  border-bottom: none;
+  border-right: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  border-top: 2px solid black;
+  color: #2F4F4F;
+}
+
+a {
+  background-color: rgb(227, 228, 172);
+  text-decoration: none;
+  color: black;
+  padding: 20px 55px;
+  margin-left: 40px;
+  margin-right: 55px;
+  width: 300px;
+  font-size: 1.2em;
+  text-align: center;
+}
+a:hover {
+  color: rgb(227, 228, 172);
+  font-size: 1.2em;
+}

@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    animation-name: h1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+   
+}
+@keyframes h1 {
+    0% {opacity: 0%;}
+    50%{opacity: 80%;}
+    100%{opacity: 0%;}
+   }
+div{
+    margin: 35px;
+    }
+    .img1{
+    animation-name: img1;
+    animation-iteration-count: infinite;
+    
+    animation-duration: 5s;
+    position: absolute;
+    
+    } 
+    @keyframes img1 {
+        0% { left: 0; }
+        50% { left: 200px;}
+        100% {left: 0;}
+       }
+    .img2{
+        animation-name: img2;
+        animation-iteration-count: infinite;
+       
+        animation-duration: 5s;
+        position: absolute;
+    }
+    @keyframes img2 {
+        0% { left: 250px;transform: skew(0deg); }
+        50% { left: 1200px;transform: skew(40deg); }
+        100% {left: 250px;transform: skew(0deg);}
+       }
+    .img3{
+        animation-name: img3;
+        animation-iteration-count: infinite;
+        
+        animation-duration: 5s;
+        position: absolute;
+    }
+    @keyframes img3 {
+        0% { left: 0; }
+        50% { left: 1600px;}
+        100%{left:0;}
+       }
+    .img4{
+        animation-name: img4;
+        animation-iteration-count: infinite;
+        
+        animation-duration: 3s;
+        position: absolute;
+    }
+    @keyframes img4 {
+        0% { bottom: 0px; }
+        50% { bottom: 50px;}
+        100% {bottom: 0px;}
+       }
+    .img5{
+        animation-name: img5;
+        animation-iteration-count: infinite;
+       
+        animation-duration: 5s;
+        position: absolute;
+    }
+    @keyframes img5 {
+        0% { left:0;}
+       25%{left:800px;}
+       50%{top:400px;}
+    75%{left:0px;}
+    100%{top:0px;}
+    }

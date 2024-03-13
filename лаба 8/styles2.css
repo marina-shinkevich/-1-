@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+   }
+    
+
+   
+.div01{
+    perspective : 50px;
+    display: inline-block;
+    margin: 30px;
+}
+.div1{
+    display:inline-block;
+    width:400px;
+    height: 200px;
+    transform: rotateX(5deg)
+   
+   
+   }
+   .div02{
+    perspective : 500px;
+    display: inline-block;
+    margin: 40px;
+}
+    .div2{
+    display:inline-block;
+    width:400px;
+    height: 200px;
+    transform: rotateY(20deg)
+
+}
+.div03{
+    perspective : 50px;
+    display: inline-block;
+    margin: 30px;
+}
+.div3{
+    display:inline-block;
+    width:400px;
+    height: 200px;
+    transform: rotateX(5deg)}
+.div04{
+    perspective : 500px;
+    display: inline-block;
+}
+    .div4{
+    display:inline-block;
+    width:400px;
+    height: 200px;
+    transform: rotateY(-20deg)
+
+}

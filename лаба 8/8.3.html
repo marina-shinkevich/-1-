@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+	margin: 0;
+	padding: 0;
+}
+#nav{
+	height: 70px;
+}
+#nav ul{
+	list-style: none;
+    margin:2px;
+    
+   
+}
+
+#nav > ul > li{
+	
+	width: 180px;
+	position: relative;
+}
+#nav li a{
+	display: block;
+	background: #ffffff;
+	border: 3px dotted #060A13;
+	color: #060A13;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+    background-color: rgb(246, 169, 131);
+    
+}
+#nav li a:hover{
+	background: #2F718E;
+
+}
+    
+#nav li .second{
+	visibility:hidden;
+    display:block;
+	position: absolute;
+	top: 100%;
+}
+
+
+#nav li:hover .second{
+	display: block;
+visibility: visible;
+}
+    .menu{
+        display: block;
+        background-color: yellow;
+        height: 50px;
+        font-size: large;
+        padding-top: 5px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <nav id = "nav">
+    <ul>
+    <li class="menu">Меню
+        <ul class = "second">
+            <li><a href = "lab0503.html">Форма</a></li>
+            <li><a href = "laba0504.html">Шахматная <br>доска</a></li>
+            <li><a href = "laba603.html">Фотогалерея</a></li>
+        </ul>
+    </li>
+    </ul>
+</nav>
+</body>
+</html>
